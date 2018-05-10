@@ -1,5 +1,18 @@
+.. highlight:: rst
+
+============================
+reStructuredText with Sphinx
+============================
+
+-----------------
+Setting up Sphinx
+-----------------
+
+^^^^^^^^^^
+Windows XP
+^^^^^^^^^^ 
  
-  Index Calculation:
+ Index Calculation:
   ==================
   -   Get all history data of BTC coins using cURL "http://coincap.io/history/BTC"
   -   Store Coin data based on the date value
