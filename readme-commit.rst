@@ -1,69 +1,70 @@
-.. highlight:: rst
+###################
+What is CodeIgniter
+###################
 
-============================
-reStructuredText with Sphinx
-============================
+CodeIgniter is an Application Development Framework - a toolkit - for people
+who build web sites using PHP. Its goal is to enable you to develop projects
+much faster than you could if you were writing code from scratch, by providing
+a rich set of libraries for commonly needed tasks, as well as a simple
+interface and logical structure to access these libraries. CodeIgniter lets
+you creatively focus on your project by minimizing the amount of code needed
+for a given task.
 
------------------
-Setting up Sphinx
------------------
+*******************
+Release Information
+*******************
 
-^^^^^^^^^^
-Windows XP
-^^^^^^^^^^ 
- 
- Index Calculation:
-  ==================
-  -   Get all history data of BTC coins using cURL "http://coincap.io/history/BTC"
-  -   Store Coin data based on the date value
-  -   Store all volume data in descending order
-  -   Get last 30 days volume record
-  -   Sum the last 30 days volume data
-  -   Count the volume record
-  -   Find the average of last 30 days volume
-  -   Store the volume data greater than zero value
-  -   Get all coin data symbols and name using cURL "http://coincap.io/map"
-  -   Get all history data of coins using cURL ""http://coincap.io/history/COIN_SYMBOL"
-  -   Calculate percentage based on BTC
-  -   Find and store Market Cap based on the percentage greater than 0.01%
-  -   Store Market Cap value
-  -   Sort array values to find first 10 rank records 
-  -   Get first 10 rank records to find the average
-  -   Store first 10 rank coins & percentage value
-  -   Find total count of 10 records
-  -   To find Index composition in percentage by finding average
-  -   Multiply percentage value with Market cap value
-  -   Find Index value by adding 10 coin records
-  -   Divide the calculated value by the static number 23,834,013
-  -   Store all Coins Total Market Cap Records
-  -   Insert the calculated Index into the database  
-  
-  Graphical Section
-  =================
-  Line Chart
-  ==========
-  Index variation by day
-  ----------------------
-  X-axis - Timestamp value
-  Y- axis- Index value
-  
-  Based on the Index value calculation, the graph shown using High Charts.
-  
-  Pie Chart
-  =========
-  Martket Cap percentage record (Individual day record)
-  -----------------------------------------------------
-  Graph represents top 10 coin records of the day with Coin name and Marketcap percentage value.
-  Graph drawn using High Charts.
-  
-  Coin Listing
-  ============
-  List top 10 coin name and its marketcap percentage value.
-  
-  Tabular column (Index percentage changes)
-  =========================================
-  List the Index value changes based for 24 hours, Week, Month, 3 Months and Year.
+This repo contains in-development code for future releases. To download the
+latest stable release please visit the `CodeIgniter Downloads
+<https://codeigniter.com/download>`_ page.
 
-  Schedule Cron:
-  ==============
-  Run cron job for each 15 mins to store all the index records to track the rank and its percentages.
+**************************
+Changelog and New Features
+**************************
+
+You can find a list of all changes for each release in the `user
+guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+
+*******************
+Server Requirements
+*******************
+
+PHP version 5.6 or newer is recommended.
+
+It should work on 5.3.7 as well, but we strongly advise you NOT to run
+such old versions of PHP, because of potential security and performance
+issues, as well as missing features.
+
+************
+Installation
+************
+
+Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
+of the CodeIgniter User Guide.
+
+*******
+License
+*******
+
+Please see the `license
+agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+
+*********
+Resources
+*********
+
+-  `User Guide <https://codeigniter.com/docs>`_
+-  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
+-  `Community Forums <http://forum.codeigniter.com/>`_
+-  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
+-  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+
+Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
+or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+
+***************
+Acknowledgement
+***************
+
+The CodeIgniter team would like to thank EllisLab, all the
+contributors to the CodeIgniter project and you, the CodeIgniter user.
