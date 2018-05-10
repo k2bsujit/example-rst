@@ -6,7 +6,7 @@ HEXAGON
  Index Calculation:
 *******************
  
--  ``Get all history data of BTC coins using cURL <http://coincap.io/history/BTC>`_
+-  `Get all history data of BTC coins using cURL <http://coincap.io/history/BTC>`_
 -  `Store Coin data based on the date value`_
 -  `Store all volume data in descending order`_
 -  `Get last 30 days volume record`_
