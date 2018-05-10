@@ -29,5 +29,45 @@ HEXAGON
 -  Divide the calculated value by the static number 23,834,013
 -  Store all Coins Total Market Cap Records
 -  Insert the calculated Index into the database
+
+
+*****************
+Graphical Section
+*****************
+
+************
+Line Chart
+************
+
+Index variation by day
+- X-axis - Timestamp value
+- Y- axis- Index value
   
+Based on the Index value calculation, the graph shown using High Charts.
+
+*********
+Pie Chart
+*********
+
+Martket Cap percentage record (Individual day record)
   
+- Graph represents top 10 coin records of the day with Coin name and Marketcap percentage value.
+- Graph drawn using High Charts.
+ 
+************
+Coin Listing
+************
+
+List top 10 coin name and its marketcap percentage value.
+  
+*****************************************
+Tabular column (Index percentage changes)
+*****************************************
+
+List the Index value changes based for 24 hours, Week, Month, 3 Months and Year.
+
+**************
+Schedule Cron:
+**************
+
+Run cron job for each 15 mins to store all the index records to track the rank and its percentages.
